@@ -1,0 +1,58 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.hero {
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.trabajo {
+    background: #17A2B8;
+
+}
+.trabajo h2{
+    margin-top: 5rem;
+    position: relative;
+    z-index: 2;
+}
+.card img{
+    height: 200px;
+    object-fit:cover
+}
+
+.btn-right {
+    display: flex;
+    justify-content: flex-end;
+  
+}
+.btn-lower {
+    margin-top: 10px;
+    color: white;
+    background-color: #17A2B8;
+}
+
+footer{
+    background-color: black; 
+    padding: 50px;
+    text-align: center;
+}
+
+footer p{
+color:white; 
+text-align: center;
+}
+.btn-custom {
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background: transparent;
+    transition: background 0.3s, color 0.3s;
+}
+.btn-custom:hover {
+    background-color: white;
+    color: #D84343;
+}
